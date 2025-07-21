@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Anta");
+:root {
+  --bg-color: #121212;
+  --fg-color: white;
+  --acc-color: rgb(170, 0, 170);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--fg-color);
+}
+html {
+  font-family: "Anta", sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: var(--bg-color);
+  padding: 0px 4%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.header .logo {
+  font-size: 2rem;
+  span {
+    color: var(--acc-color);
+  }
+}
+
+.header .navigation {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  a:hover {
+    color: var(--acc-color);
+    font-size: 1.1rem;
+    text-decoration: underline solid 2px;
+  }
+}
