@@ -19,6 +19,9 @@ body {
   background-color: var(--bg-color);
   padding: 0px 4%;
 }
+span {
+  color: var(--acc-color);
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -30,9 +33,6 @@ body {
 }
 .header .logo {
   font-size: 2rem;
-  span {
-    color: var(--acc-color);
-  }
 }
 
 .header .navigation {
