@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Anta");
 
 :root {
-  --bg-color: #121212;
+  --bg-color: #131313;
   --fg-color: white;
   --acc-color: rgb(170, 0, 170);
 }
@@ -32,10 +32,11 @@ span {
   top: 0;
   left: 0;
   z-index: 100;
+  background-color: var(--bg-color);
+  box-shadow: 0 0 2rem var(--bg-color);
 }
 .header .logo {
   font-size: 2rem;
-  background-color: var(--bg-color);
 }
 
 .header .navigation {
@@ -44,7 +45,7 @@ span {
   justify-content: space-between;
   width: 510px;
   padding: 0 10px;
-  background-color: var(--bg-color);
+
   a:hover {
     color: var(--acc-color);
     font-size: 1.1rem;
@@ -71,6 +72,7 @@ span {
   img {
     width: 500px;
     box-shadow: 0 0 1rem var(--acc-color);
+    border-radius: 4px;
     position: relative;
     top: -40px;
   }
@@ -86,4 +88,49 @@ span {
 .social-icons {
   font-size: 2rem;
   color: var(--acc-color);
+}
+.social-icons:hover {
+  color: var(--fg-color);
+  font-size: 2.1rem;
+}
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 40px;
+  .btn {
+    background-color: var(--acc-color);
+    color: var(--fg-color);
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 0 1rem var(--acc-color);
+  }
+  .btn:hover {
+    box-shadow: 0 0 0.6rem var(--acc-color);
+    cursor: pointer;
+  }
+}
+.section-top {
+  padding-top: 80px;
+}
+#about {
+  h2 {
+    margin: 20px 0 10px 0;
+  }
+  .space {
+    margin: 10px 0;
+  }
+}
+/* Responsive design */
+@media screen and (max-width: 1030px) {
+  #home img {
+    width: 350px;
+  }
+  .btn-wrapper .btn {
+    width: 160px;
+    height: 35px;
+  }
 }
