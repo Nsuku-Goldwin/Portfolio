@@ -54,7 +54,7 @@ span {
 }
 /* Main sections */
 .section {
-  height: 100vh;
+  min-height: 100vh;
   /* border: 2px solid red; */
 }
 #home {
@@ -114,11 +114,11 @@ span {
   }
 }
 .section-top {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 #about {
   h2 {
-    margin: 20px 0 10px 0;
+    margin: 12px 0 4px 0;
   }
   .space {
     margin: 10px 0;
@@ -132,5 +132,23 @@ span {
   .btn-wrapper .btn {
     width: 160px;
     height: 35px;
+  }
+}
+/* Portfolio css */
+.portfolio-wrapper {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 0.5%;
+}
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  box-shadow: 0 0 0.6rem var(--acc-color);
+  padding: 4px;
+  border-radius: 8px;
+  /* border: 2px solid green; */
+  img {
+    min-width: 250px;
   }
 }
