@@ -107,6 +107,10 @@ span {
     border: 0;
     border-radius: 4px;
     box-shadow: 0 0 1rem var(--acc-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .btn:hover {
     box-shadow: 0 0 0.6rem var(--acc-color);
