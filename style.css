@@ -33,7 +33,7 @@ span {
   left: 0;
   z-index: 100;
   background-color: var(--bg-color);
-  box-shadow: 0 0 2rem var(--bg-color);
+  /* box-shadow: 0 0 2rem var(--bg-color); */
 }
 .header .logo {
   font-size: 2rem;
