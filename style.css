@@ -206,3 +206,6 @@ span {
   box-shadow: 0 0 0.6rem var(--acc-color);
   cursor: pointer;
 }
+footer {
+  text-align: center;
+}
