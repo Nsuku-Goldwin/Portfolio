@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Anta");
 
 :root {
-  --bg-color: #131313;
+  --bg-color: #1d1d1d;
   --fg-color: white;
-  --acc-color: rgb(170, 0, 170);
+  --acc-color: rgb(223, 0, 223);
 }
 * {
   margin: 0px;
